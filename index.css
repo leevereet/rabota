@@ -1,0 +1,113 @@
+body {
+    background-color: #696969;
+}
+
+h1 {
+    color: #faf8f1;
+    text-align: center;
+}
+
+h2 {
+    padding-top:3%;
+    text-align: center;
+}
+
+form {
+    background-color: #faf8f1;
+    width: 60%;
+    max-width:80%;
+    margin:0 auto;
+    display:block;
+}
+.lbl {
+    margin-left: 40px;
+}
+
+input[type=text] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 40px;
+    box-sizing: border-box;
+}
+input[type=text]{
+    border-radius: 4px;
+}
+input[type=password] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 40px;
+    box-sizing: border-box;
+}
+input[type=email] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 40px;
+    box-sizing: border-box;
+}
+input[type=number] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 40px;
+    box-sizing: border-box;
+}
+input[type=date] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 40px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+input[type=radio] {
+    width: 30px ;
+}
+select {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 40px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+input[type=submit], [type=reset] {
+    border: none;
+    padding: 25px 160px;
+    text-align: center;
+    font-size: 16px;
+
+}
+input[type=reset]{
+    background-color: whitesmoke;
+}
+input[type=reset]{
+    background-color: red;
+}
+.knopk {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+select {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 40px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.lbl {
+    margin-left: 40px;
+}
+input[type=radio] {
+    width: 20%;
+}
+input:valid{
+    border: 2px solid black ;
+    background-color: whitesmoke;
+}
+input:invalid {
+    border: 2px solid black;
+    background-color: #FA8072;
+}
+input:invalid:required{
+    background-color: #FA8072;
+}
